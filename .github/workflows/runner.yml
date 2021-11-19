@@ -25,10 +25,19 @@ jobs:
       - name: Execute Script
         run: |
           python harian.py
+          echo "harian.py Done"
+
           python jenis_kelamin.py
+          echo "jenis_kelamin.py Done"
+
           python pemeriksaan-vaksinasi.py
+          echo "pemeriksaan-vaksinasi.py Done"
+
           python provinsi.py
+          echo "provinsi.py Done"
+
           python usia.py
+          echo "usia.py Done"
 
       - name: Commit File
         run: |
