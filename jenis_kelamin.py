@@ -29,15 +29,7 @@ for x in range(len(data)):
 data_jenis_kelamin = data_jenis_kelamin.reset_index(drop=True)
 data_jenis_kelamin.insert(0, 'tanggal', tanggal)
 
-######
-
-data_csv = pd.read_csv('nasional/usia.csv')
-
-data_join = pd.concat([data_jenis_kelamin, data_csv])
-data_join.drop_duplicates().reset_index()
-#
-
-######
+###
 
 data_csv = pd.read_csv('nasional/jenis_kelamin.csv')
 
@@ -47,6 +39,5 @@ data_join = pd.concat([data_jenis_kelamin, data_csv]
 ###
 
 data_join.to_csv("nasional/jenis_kelamin.csv", index=False)
-data_jenis_kelamin_nasinal = data_join.groupby(
-    "tanggal").sum().drop(["provinsi"], axis=1)
+data_jenis_kelamin_nasinal = data_join.groupby("tanggal").sum()
 data_jenis_kelamin_nasinal.to_csv("nasional/jenis_kelamin_nasional.csv")
