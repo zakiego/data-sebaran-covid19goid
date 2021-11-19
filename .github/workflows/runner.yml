@@ -24,8 +24,12 @@ jobs:
           pip install requests
       - name: Execute Script
         run: |
-          python usia.py
+          python harian.py
           python jenis_kelamin.py
+          python pemeriksaan-vaksinasi.py
+          python provinsi.py
+          python usia.py
+
       - name: Commit File
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
