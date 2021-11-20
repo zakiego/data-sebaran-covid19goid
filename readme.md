@@ -1,4 +1,4 @@
-# Data Sebaran Covid-19 dari covid-19.go.id
+# Data Sebaran Covid-19 dari covid19.go.id
 
 [![Daily Update](https://github.com/zakiego/data-sebaran-covid19goid/actions/workflows/runner.yml/badge.svg)](https://github.com/zakiego/data-sebaran-covid19goid/actions/workflows/runner.yml)
 
