@@ -17,6 +17,10 @@ Tingkat Nasional
 3. [Data Pemeriksaan Covid-19 Harian Nasional](#3-data-pemeriksaan-covid-19-harian-nasional)
 4. [Data Jenis Kelamin Covid-19 Nasional](#4-data-jenis-kelamin-covid-19-nasional)
 5. [Data Usia Covid-19 Nasional](#5-data-usia-covid-19-nasional)
+6. [Data Lab Covid-19](#6-data-lab-covid-19)
+7. [Data Rumah Sakit Covid-19](#7-data-rumah-sakit-covid-19)
+
+
 
 Tingkat Provinsi
 
