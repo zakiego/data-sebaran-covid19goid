@@ -38,6 +38,12 @@ jobs:
           python script/usia.py
           echo "usia.py Done"
 
+          python script/rumah_sakit.py
+          echo "rumah_sakit.py Done"
+
+          python script/lab.py
+          echo "lab.py Done"
+
       - name: Commit File
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
