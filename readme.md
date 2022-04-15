@@ -25,6 +25,8 @@ Tingkat Provinsi
 
 [Catatan](#catatan)
 
+[Data Riwayat Zonasi Covid-19](https://github.com/zakiego/dataset-zonasi-covid19goid)
+
 ---
 
 ### Tingkat Nasional
